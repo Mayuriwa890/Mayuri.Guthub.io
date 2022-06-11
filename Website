@@ -1,0 +1,229 @@
+    <!DOCTYPE html>
+<html>
+
+<head>
+  
+  <title>HARSH DEVELOPER</title>
+  <style>
+  *{
+    margin:0;
+    padding:0;
+  }
+  .navbar{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position:sticky;
+    top:0;
+    cursor:pointer;
+    
+    
+    
+  }
+  .background{
+    background:black;
+    background-blend-mode:darken;
+    background-size:cover
+  }
+  .nav-list{
+    width:70;
+    display:flex;
+    align-items: center;
+    
+    
+  }
+  .logo img {
+    width:180;
+    border-radius:50pc;
+  }
+  .nav-list li{
+    list-style:none;
+    padding:26px 30px;
+  }
+  .nav-list li a {
+    text-decoration:none;
+    color: white;
+  }
+  .nav-list li a:hover{
+    color:grey;
+  }
+  .rightnav{
+    width:30%;
+    text-align: right;
+  }
+  #search{
+    padding: 5px;
+    font-size:17px;
+    bp
+   border-radius: 9px
+  }
+  .firstsection{
+    background-color: lightcyan;
+    height:400px;
+  }
+  .secondsection{
+    background-color:lightcyan;
+    height:400px;
+    justify-content: center
+  }
+  .box-main{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    color:black;
+    max-width:80%;
+    margin=auto;
+    height=80%;
+  }
+  .firstHalf{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    
+    
+    
+  }
+  .secondHalf{
+    width:70%;
+    border:4px solid white;
+    border-radius:150px;
+    display: block;
+    margin:auto;
+    justify-content: center;
+  }
+  .text-big{
+    font-family: 'piazzolla';
+    font-weight:bold;
+    font-size:35px;
+  }
+  .text-small{
+    font-size: 18px;
+  }
+  .btn{
+    padding: 8px 20px;
+    margin:7px 0;
+    
+    border:2px solid white;
+    border-radius:8px;
+    background:none;
+    color:white;
+    cursor:pointer;
+    
+  }
+  .btn-sm{
+    padding:6px 10x;
+    vertical-align: middle;
+  }
+  .section{
+    height:400px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    max-width:90%;
+    margin:auto
+    
+  }
+  .section-left{
+    flex-direction: center;
+  }
+  .paras{
+    padding:0px 65px;
+  }
+  .thumbnail img{
+    width:250px;
+    border:2px solid black;
+    border-radius:26px;
+    margin-top:19px;
+  }
+  .center{
+    text-align: center;
+  }
+  .text-footer{
+    text-align: center;
+    padding:30px 0;
+    font-family:'ubuntu',
+    sans-serif;
+    display:flex;
+    justify-content: center;
+    color:black;
+  }
+  </style>
+</head>
+
+<body>
+<nav class="navbar background">
+  <ul class="nav-list">
+    <div class="logo">
+  <img src="logo.png">
+  </div>>
+  <li><a href="#web">web </a></li>
+  <li><a href="#program">contact</a></li>
+  <li><a href="#course">course</a>
+  </li>
+  </ul>
+  <div class="right nav">
+    <input type="text" name="search" id="search" >
+     <button class="btn btn-sm">
+       
+  </div>>
+  </nav>
+  <section class="firstsection">
+  <div class="box-main">
+    <div class="first-half">
+      <h1 class="text-big" ;
+      color:red;
+      id="web"> HARSH DEVELOPER</h1>
+      <p class="text-small">welcome to our website </p>
+      <img src="https://pngimg.com/uploads/building/building_PNG90.png">
+    </div>
+  </div>
+  </section>
+  <section class="secondsection">
+    <div class="box-main"></div>
+    <div class="firstHalf"></div>
+    <h1 class="text-big" id="program">HELLO</h1>
+    <p>Builders & Developers. All kinds of Building construction Works, Architectural Designing, Plan.Projects
+Dredging & Chartering Services<br>
+Railway Electrification<br>
+Civil Contractors & Developers<br>
+Services
+Dredging & Chartering Services<br>
+Railway Electrification<br>
+Civil Contractors & Developers<br>
+Financial Services<br>
+Contact Us<br>
+<address>
+B-212, Western Edge-II, Behind Metro Mall, Off. W.E. Highway, Borivali (E), Mumbai- 400 066. India.</address>
+022 28707200
+info@abncogroup.com
+© Abnco Group. All rights reserved.
+Facebook-<br>
+Twitter<br>
+Linkedin-in<br>
+</p>
+
+    </<div>
+    </<div>
+    
+ </body>
+</section>
+<section class="section">
+  <div class="paras"></div>
+  <h1 class="section Tag text-big">
+  About <br>us</h1>
+  <p class ="section sub Tag text-small">We are one of the Reputed Govt. Civil Contractor and We believe in terms of Quality, Reliability, Technical, Expertise and Professional Approach. As a leader in infrastructure construction and maintenance, our' goal is to set the pace in our industry and to be a model of excellence by providing safe, innovative, sustainable and cost-effective solutions for our customers. Our core values govern our internal business practices and partnership and guide our innovations</p>
+  
+  </div>
+    <div class="thumbnail"></div>
+    
+    </div>
+    </section>
+    <footer class="background">
+      <p
+      ></p>
+      </footer>
+      <imgsrc="">
+        
+      </body>
+</html>
